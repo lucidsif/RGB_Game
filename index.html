@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title> The GreatRGB  Color Game</title>
+    <link rel="stylesheet" href="colorgame.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,100' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+    <h1> <span class="smallh1">SUPER DOPE</span> <br> 
+         <span id="colorDisplay">RGB</span> <br>
+        <span class="smallh1">GUESSING GAME</span>
+        <br>
+        <span id="score"> Score: <span id="scoreDisplay"> 0 </span> </span> 
+        <span id="highScore"> Your Best: <span id="highScoreDisplay">0</span> </span>
+    </h1>
+ <!-- <h2> Score: <span id="scoreDisplay"> 0 </span> </h2>   -->
+<div id ="stripe"> 
+<button id="reset"> New Colors </button>    
+<span id="messageDisplay"></span>
+    <button class="mode">Easy</button>
+    <button class="mode selected">Hard</button>
+</div>
+    
+    <div class="container">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square" ></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>   
+    
+<script type="text/javascript" src="colorgame2.js"> </script>
+</body>
+</html>
+
+<!--
+create element in html
+select with JS
+create var high score
+
+var current score 2000
+logic- every second it reduces 100;
+if c
